@@ -104,7 +104,7 @@ def choose_option(option, file):
     elif option == '2':
         #file = input("What is the file name?\n")
         task_to_add = input("What is the task you would like to add?\n")
-        due_date = input("When is the Due Date?\n")
+        due_date = input("When is the Due Date?\nExample Format: MM-DD-YYYY")
         add_task(file, task_to_add, due_date)
     elif option == '3':
         #file = input("What is the file name?\n")
